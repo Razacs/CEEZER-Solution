@@ -1,0 +1,34 @@
+### **2. `.gitignore`**
+
+```txt
+# Ignore node_modules
+node_modules/
+
+# Cypress cache files
+.cypress_cache/
+
+# Ignore Percy snapshots
+percy/
+
+# Ignore Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+
+# Ignore environment variables
+.env
+
+# Logs and lock files
+*.log
+package-lock.json
+yarn.lock
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore IDE specific files
+.vscode/
+.idea/

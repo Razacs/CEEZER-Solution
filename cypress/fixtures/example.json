@@ -1,0 +1,47 @@
+{
+  "valid": {
+    "user": {
+      "companyName": "Test Company",
+      "email": "test@example.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "accountType": "buyer"
+    },
+    "companyDetails": {
+      "registrationNumber": "123456789",
+      "vatId": "987654321",
+      "address": "123 Test Street",
+      "city": "Berlin",
+      "postalCode": "10115",
+      "country": "Germany",
+      "industry": "Technology & IT",
+      "description": "Review and approve."
+    },
+    "developerUser": {
+      "companyName": "Dev Company",
+      "email": "dev@example.com",
+      "firstName": "Alice",
+      "lastName": "Wonder",
+      "accountType": "project developer",
+      "description": "Review and approve."
+    }
+  },
+  "invalid": {
+    "user": {
+      "companyName": "",
+      "email": "invalid-email",
+      "firstName": "",
+      "lastName": "",
+      "accountType": ""
+    },
+    "companyDetails": {
+      "registrationNumber": "",
+      "vatId": "",
+      "address": "",
+      "city": "",
+      "postalCode": "",
+      "country": "",
+      "industry": ""
+    }
+  }
+}
