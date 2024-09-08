@@ -25,6 +25,8 @@ CEEZER Solution/
   ├── package-lock.json
   ├── cypress.config.js
 
+![image](https://github.com/user-attachments/assets/c5f5bbe0-f836-443e-bd98-c8afdd5c09cc)
+
 - **cypress/fixtures/**: Contains valid and Invalid test data in JSON format (`example.json`).
 - **cypress/e2e/signup.cy.js**: Contains the test cases for the signup form. All the test cases are listed here
 - **cypress/support/commands.js**: Contains custom commands for reusability across multiple test cases.
