@@ -69,10 +69,10 @@ Steps to follow:
 
 **--> For Percy VISUAL Execution follow these steps:**
 
-Create a Percy account.
-Get Percy token.
-Set the Percy token in your environment (export PERCY_TOKEN=<your-percy-token>)
-Run Percy tests with visual testing: npx percy exec -- npx cypress run
+1) Create a Percy account.
+2) Get Percy token.
+3) Set the Percy token in your environment (export PERCY_TOKEN="percy-token")
+4) Run Percy tests with visual testing: npx percy exec -- npx cypress run
 
 **Troubleshooting || Common Issues:**
 
